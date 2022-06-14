@@ -1,0 +1,156 @@
+* 
+{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+/* Menu */
+
+header
+{
+    padding: 8px 0;
+    height: 90px;
+    background-color: #4c4c6d;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img
+{
+    height: 70px;
+}
+
+.menu-desk
+{
+    float: right;
+}
+
+.menu-desk ul
+{
+    position: relative;
+    margin-top: 30px;
+}
+
+.menu-desk a
+{
+    color: #b8dfd8;
+    text-decoration: none;
+}
+
+.menu-desk li
+{
+    padding: 0 10px;
+    font-weight: lighter;
+    display: inline-block;
+}
+
+.menu-desk li.selected{
+    font-weight: bold;
+}
+
+.menu-desk a:hover{
+    text-decoration: underline;
+}
+
+/* Banner */
+/*Quem somos*/
+.texto img
+{
+    height: 500px;
+    float: left;
+}
+
+.texto {
+    float: right;
+}
+
+/*Contato*/
+form {
+
+    margin: 0 auto;
+    width: 400px;
+    
+    padding: 1em;
+    border: 3px solid darkslateblue;
+    border-radius: 1em;
+}
+    
+form div + div {
+    margin-top: 1em;
+}
+    
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+    
+input, textarea {
+    font-family: 'montserrat';
+    width: 300px;
+    box-sizing: border-box;
+    border: 3px solid darkslateblue;
+}
+    
+input:focus, textarea:focus {
+    border-color: #000;
+}
+    
+textarea {   
+vertical-align: top;
+height: 5em;
+}
+    
+.button {
+    padding-left: 90px; 
+}
+    
+button {
+margin-left: .1em;
+}
+/* Rodapé / Footer */
+.w33
+{
+    float: left;
+    width: 33.3%;
+}
+
+.footer1 
+{
+    background: #4c4c6d;
+    padding: 80px 0px;
+    color: white ;
+
+}
+
+.footer1 h2
+{
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.footer1 a
+{
+    display: block;
+    color: black;
+    margin-top: 10px;
+}
+
+.footer2
+{
+    padding: 15px 0px;
+    background: #b8dfd8;
+    text-align: center;
+    color: black;
+}

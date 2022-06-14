@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>Patrulha Litorânea</title>
+        <!--meta tags-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="widht=device-widht;initial-scale = 1.0">
+        <meta name="author" content="Patrulha Litorânea">
+        <meta name="description" content="Página informativa sobre os alagamentos que acontecem na cidade de Caraguatatuba e meios de prevenção.">
+        <meta name="keywords" content="Caraguatatuba, alagamentos, informação, notícias, enchentes, medidas de prevenção">
+        <!--Links-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+
+
+    </head> 
+    <body>  
+        <!--Menu-->
+        <header>
+            <div class="container">   
+                <div class="logo">
+                        <img src="img/logo.png">
+                    </div>
+        
+                        <nav class="menu-desk">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="quem somos.html">Quem Somos</a></li>
+                                <li class="selected"><a href="contato.html">Contato</a></li>
+                                <li><a href="mais.html">Mais...</a></li> <!--Não é para ser uma nova página, e sim abrir uma caixa em baixo e colocar as outras seções. Ex: entrevista. Vai ser uma âncora, a pessoa vai clicar e a página irá rolar sozinha para baixo-->
+        
+                            </ul>
+                        </nav>
+            </div>
+        </header>   
+        <body>
+            <form action="/formulario-contato" method="post">
+                <div>
+                    <label for ="nome">Nome completo:</label>
+                    <input type="texto" id ="nome" name="nome_usuario">
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email_usuario">
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem_usuario"></textarea>
+                </div>
+            </form>
+            
+                   
+        <!--Rodapé-->
+        <footer class="footer1">
+            <div class="container">
+    
+                <div class="w33">
+                    <h2>Localização</h2>
+    
+                        <div class="containerIframe1">
+                            <iframe class="responsive-iframe" width="350" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=avenida%20bahia%201739&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/divi-discount/"></a><br><style>.mapouter{position:relative;text-align:right;height:200px;width:350px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:200px;width:350px;}</style>
+                        </div>
+    
+                    </div>
+                </div>
+            </footer>
+    
+            <footer class="footer2">
+                <div class="container">
+                    <p>Patrulha Litorânea ©2022 Todos os direitos reservados</p>
+                </div>
+            </footer>
+    
+            <script src="js/jquery-3.6.0.js"></script>
+    
+            <script>
+                $('.menu-mobile h2').click(function(){
+                    $('.menu-mobile ul').slideToggle();
+                })      
+            </script>   
+    </body>             
+</html>        
